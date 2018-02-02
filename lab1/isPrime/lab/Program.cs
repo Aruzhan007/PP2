@@ -13,15 +13,12 @@ namespace lab
         static void Main(string[] args)
         {
             for (int i = 0; i < args.Length; i++) {
-                Console.WriteLine(args[i]);
+                if (isPrime(int.Parse(args[i])))
+                    Console.WriteLine(args[i]);
             }
-                //if (isPrime(int.Parse(args[i])))
-               //     Console.WriteLine(args[i]);
             Console.ReadKey();
         }
     }
 }
 
-// csc lab1.cs
-// lab1.exe 4 5 6 
 
