@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Xml;
-using System.Xml.Serialization;
 using System.IO;
 
 
@@ -24,7 +18,7 @@ namespace XmlSerialization
             xs.Serialize(fs, a);
             fs.Close();
         }
-        static void Binform()
+        static void Binorm()
         {
             BinaryFormatter bf = new BinaryFormatter();
             FileStream fs = new FileStream("data.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
