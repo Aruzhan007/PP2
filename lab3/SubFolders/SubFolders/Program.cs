@@ -38,7 +38,7 @@ namespace SubFolders
         }
         static void Main(string[] args)
         {
-            DirectoryInfo dirInfo = new DirectoryInfo(@"Users/aruzan / Documents / programming1");
+            DirectoryInfo dirInfo = new DirectoryInfo(@"/Users/aruzan/Documents/programming1");
             int cursor = 0;
             int n = dirInfo.GetFileSystemInfos().Length;
             ShowAllInfo(dirInfo,cursor);
