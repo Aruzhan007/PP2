@@ -11,52 +11,17 @@ namespace Shop
        
          static void Main(string[] args)
         {
-            List<Shop> shops = new List<Shop>();
-
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("✿ Welcome to La Flore  ✿ Plese, enter your name ✿");
             string customername = Console.ReadLine();
-            Console.Clear();
             Console.WriteLine("✿ Please, enter your cash: ");
             int cash=int.Parse(Console.ReadLine());
             int balance = cash;
-            int num = 0;
-
-
             Console.Clear();
-
-            /*while (true)
-            {
-                Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                Console.WriteLine("✿ Hello ✿ "+ customername);
-                Console.ForegroundColor = ConsoleColor.Magenta;
-                Console.WriteLine("click to Enter ► see list of shops");
-                Console.WriteLine("click to A ► add new shop ");
-                Console.WriteLine("click to Backspace ► exit ☹");
-                ConsoleKeyInfo key = Console.ReadKey();
-
-
-
-
-                if (key.Key == ConsoleKey.Enter)
-                {
-                    shop.ShowShops(shops);
-                }
-              
-                if (key.Key == ConsoleKey.A)
-                {
-                    shop.AddNewShop(shops);
-                }
-                       
-                if (key.Key == ConsoleKey.Backspace)
-                return;
-
-                Console.Clear();
-            }*/
-
+          
             Product product = new Product();
-            DirectoryInfo directory = new DirectoryInfo("shops");
-            DirectoryInfo[] dirarr  = directory.GetDirectories();
+            DirectoryInfo directory = new DirectoryInfo(@"shops");
+            DirectoryInfo[] dirarr  = directory.GetDirectories(@"shops");
             List<Product> products = new List<Product>();
             Shop shop = new Shop(products);
             int cnt = 0;
@@ -75,7 +40,7 @@ namespace Shop
                     }
                     Console.WriteLine(dirarr[i]);
                 }
-                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine(customername + ", your cash : " + cash + "$");
                 ConsoleKeyInfo key = Console.ReadKey();
                 if (key.Key == ConsoleKey.UpArrow)
@@ -146,10 +111,10 @@ namespace Shop
                                 Console.WriteLine(shp[i]);
                             }
                             int cost = int.Parse(shp[0].Substring(shp[0].IndexOf(' '), shp[0].Length - shp[0].IndexOf(' ')));
-                            Console.WriteLine("1)If you want buy ➦ B");
-                            Console.WriteLine("2)If you want exit ➦ Esc");
+                            Console.WriteLine("1)If you want buy ➦ Enter");
+                            Console.WriteLine("2)If you want exit ➦ BackSpace");
                             key = Console.ReadKey();
-                            if (key.Key == ConsoleKey.B)
+                            if (key.Key == ConsoleKey.Enter)
                             {
                                 if (cash >= cost)
                                 {
@@ -157,66 +122,66 @@ namespace Shop
                                     Console.WriteLine("Congratulations! You successfully bought the " + file[num].Name.Substring(0, file[cnt].Name.IndexOf('.')));
                                     product = new Product(file[num].Name, cost);
 
-                                    shop.products.Add(product); cnt++;
+                                    shop.products.Add(product); 
+                                    cnt++;
                                     cash -= cost;
                                     Console.ReadKey();
                                     num = 0;
                                 }
                                 else
-                                {
+                                   {
                                     Console.Clear();
                                     Console.WriteLine("Please, fund your account!");
                                     Console.ReadKey();
                                     num = 0;
+                                   }
                                 }
-                            }
-                            if (key.Key == ConsoleKey.Escape)
-                            {
+                                 if (key.Key == ConsoleKey.Escape)
+                                {
                                 Console.Clear();
                                 num = 0;
 
-                                break;
-                            }
-                            Console.Clear();
-                        }
-                    }
+                                 break;
+                                }
+                                Console.Clear();
+                               }
+                             }
 
-                    Console.Clear();
-                    if (key.Key == ConsoleKey.S)
-                    {
-                        break;
-                    }
-                }
-                num = 0;
-                int sum = 0;
-                while (true)
-                {
-                    for (int i = 0; i < cnt; i++)
-                    {
-                        if (num == i)
-                        {
-                            Console.ForegroundColor = ConsoleColor.Red;
-
-                        }
-                        else
-                        {
+                                Console.Clear();
+                                if (key.Key == ConsoleKey.S)
+                                {
+                                  break;
+                                }
+                             }
+                                num = 0;
+                               int sum = 0;
+                               while (true)
+                                {
+                                for (int i = 0; i < cnt; i++)
+                                {
+                                if (num == i)
+                                {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                              }
+                               else
+                              {
                             Console.ForegroundColor = ConsoleColor.White;
-                        }
-                        Console.WriteLine(shop.products[i]);
-                    }
-                    Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine(customername + ", your cash : " + cash + "$");
-                    Console.WriteLine("1)If you want remove ➦ R");
-                    Console.WriteLine("2)If you want exit ➦ Esc");
-                    ConsoleKeyInfo keyinf = Console.ReadKey();
-                    if (keyinf.Key == ConsoleKey.UpArrow)
+                              }
+                            Console.WriteLine(shop.products[i]);
+                              }
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine(customername + ", your cash : " + cash + "$");
+                            Console.WriteLine("1)If you want remove ➦ backspace");
+                            Console.WriteLine("2)If you want exit ➦ Esc");
+                            ConsoleKeyInfo keyinf = Console.ReadKey();
+                            if (keyinf.Key == ConsoleKey.UpArrow)
 
-                    {
-                        num--;
-                        if (num == -1)
-                        {
-                            num = cnt - 1;
-                        }
+                              {
+                                num--;
+                               if (num == -1)
+                               {
+                                  num = cnt - 1;
+                               }
                     }
                     if (keyinf.Key == ConsoleKey.DownArrow)
                     {
@@ -228,7 +193,7 @@ namespace Shop
                     }
 
                     Console.Clear();
-                    if (key.Key == ConsoleKey.A)
+                    if (key.Key == ConsoleKey.Enter)
                     {
                         foreach (Product b in shop.products)
                         {
