@@ -15,9 +15,10 @@ namespace Shop
             Console.WriteLine("✿ Welcome to La Flore  ✿ Plese, enter your name ✿");
             string customername = Console.ReadLine();
             Console.WriteLine("✿ Please, enter your cash: ");
-            int cash=int.Parse(Console.ReadLine());
-            int balance = cash;
+            long cash=long.Parse(Console.ReadLine());
+            long balance = cash;
             Console.Clear();
+            int num = 0;
           
             Product product = new Product();
             DirectoryInfo directory = new DirectoryInfo(@"shops");
@@ -25,6 +26,7 @@ namespace Shop
             List<Product> products = new List<Product>();
             Shop shop = new Shop(products);
             int cnt = 0;
+
             while (true)
             {
 
@@ -85,7 +87,7 @@ namespace Shop
                         key = Console.ReadKey();
                         if (key.Key == ConsoleKey.UpArrow)
 
-                        {
+                        { 
                             num--;
                             if (num == -1)
                             {
@@ -110,7 +112,7 @@ namespace Shop
                             {
                                 Console.WriteLine(shp[i]);
                             }
-                            int cost = int.Parse(shp[0].Substring(shp[0].IndexOf(' '), shp[0].Length - shp[0].IndexOf(' ')));
+                            long cost = long.Parse(shp[0].Substring(shp[0].IndexOf(' '), shp[0].Length - shp[0].IndexOf(' ')));
                             Console.WriteLine("1)If you want buy ➦ Enter");
                             Console.WriteLine("2)If you want exit ➦ BackSpace");
                             key = Console.ReadKey();
@@ -124,7 +126,7 @@ namespace Shop
 
                                     shop.products.Add(product); 
                                     cnt++;
-                                    cash -= cost;
+                                    cash -= cash;
                                     Console.ReadKey();
                                     num = 0;
                                 }

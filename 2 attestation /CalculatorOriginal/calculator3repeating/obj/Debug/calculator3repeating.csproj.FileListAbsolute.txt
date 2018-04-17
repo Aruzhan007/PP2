@@ -1,0 +1,48 @@
+C:/Users/Даурен/Desktop/practise/calculator3repeating/calculator3repeating/bin/Debug/calculator3repeating.exe.config
+C:/Users/Даурен/Desktop/practise/calculator3repeating/calculator3repeating/bin/Debug/calculator3repeating.exe
+C:/Users/Даурен/Desktop/practise/calculator3repeating/calculator3repeating/bin/Debug/calculator3repeating.pdb
+C:/Users/Даурен/Desktop/practise/calculator3repeating/calculator3repeating/obj/Debug/calculator3repeating.Form1.resources
+C:/Users/Даурен/Desktop/practise/calculator3repeating/calculator3repeating/obj/Debug/calculator3repeating.Properties.Resources.resources
+C:/Users/Даурен/Desktop/practise/calculator3repeating/calculator3repeating/obj/Debug/calculator3repeating.csproj.GenerateResource.Cache
+C:/Users/Даурен/Desktop/practise/calculator3repeating/calculator3repeating/obj/Debug/calculator3repeating.exe
+C:/Users/Даурен/Desktop/practise/calculator3repeating/calculator3repeating/obj/Debug/calculator3repeating.pdb
+C:/Users/Даурен/Desktop/practise/calculator3repeating/calculator3repeating/obj/Debug/calculator3repeating.csprojResolveAssemblyReference.cache
+C:/Users/Даурен/Desktop/practise/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.exe.config
+C:/Users/Даурен/Desktop/practise/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.exe
+C:/Users/Даурен/Desktop/practise/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.pdb
+C:/Users/Даурен/Desktop/practise/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.exe
+C:/Users/Даурен/Desktop/practise/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.pdb
+C:/Users/Даурен/Desktop/practise/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csprojResolveAssemblyReference.cache
+C:/Users/Даурен/Desktop/practise/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.Form1.resources
+C:/Users/Даурен/Desktop/practise/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.Properties.Resources.resources
+C:/Users/Даурен/Desktop/practise/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csproj.GenerateResource.Cache
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.exe.config
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.exe
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.pdb
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csprojResolveAssemblyReference.cache
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.Form1.resources
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.Properties.Resources.resources
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csproj.GenerateResource.Cache
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csproj.CoreCompileInputs.cache
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.exe
+/Users/aruzan/Desktop/inspiration /С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.pdb
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.exe.config
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.exe
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.pdb
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csprojResolveAssemblyReference.cache
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.Form1.resources
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.Properties.Resources.resources
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csproj.GenerateResource.cache
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csproj.CoreCompileInputs.cache
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.exe
+//Mac/Home/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.pdb
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.exe.config
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.exe
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/bin/Debug/calculator3repeating.pdb
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csprojResolveAssemblyReference.cache
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.Form1.resources
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.Properties.Resources.resources
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csproj.GenerateResource.Cache
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.csproj.CoreCompileInputs.cache
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.exe
+/Users/aruzan/Desktop/С#/CalculatorOriginal/calculator3repeating/obj/Debug/calculator3repeating.pdb
